@@ -69,7 +69,7 @@ var req = http.request(LoginOptions, function(res) {
     console.log("--------------------------");
     console.log("是否断开连接?(Enter)");
     process.stdin.on("data", function(data){
-      if(data.toString() == "\n") {
+      if(data.toString() == "\n" || data.toString() == "\r\n") {
         // 断开连接
         var cookiee = cookies[0].split("; ")[0];
         LogoutOptions.headers["Cookie"] = cookiee;
