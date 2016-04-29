@@ -36,3 +36,18 @@
 ```shell
 > ~/neu.js
 ```
+
+### Python
+Python 3.2+ required.
+
+Usage:
+```
+> python3 main.py
+    -c [command]        "logon", "logout" and "status"
+    -u [username]       your username
+    -p [password]       your password
+```
+OR
+- Run scripts (Username & Password Required)
+
+
