@@ -50,4 +50,7 @@ Usage:
 OR
 - Run scripts (Username & Password Required)
 
+### Android
+安装apk即可
+
 
